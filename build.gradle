@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hasancaslan'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.11.4'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.10.5.1'
+}
